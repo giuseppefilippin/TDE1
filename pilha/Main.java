@@ -39,7 +39,7 @@ class Pilha {
 
 class Topo {
     public int topo(Pilha pilha) {
-        if (pilha.topo != -1) {
+        if (pilha.topo == -1) {
             return pilha.dados[pilha.topo];
         }
         System.out.println("Pilha vazia");
